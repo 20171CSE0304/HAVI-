@@ -1,0 +1,41 @@
+<html>
+
+   <head>
+      <title>Text Input Control</title>
+   </head>
+	
+   <body bgcolor="grey">
+      <form >
+         First name: <input type = "text" name = "first_name" />
+         <br>
+	 <br>
+         Last name: <input type = "text" name = "last_name" />
+	 <br>
+	 <br>
+         college:<input type = "text" name = "college" />
+	 <br>
+	 <br>
+	 <p>gender</p>
+	 <input type="radio" id="male" name="gender" value="male">
+         <label for="male">Male</label><br>
+         <input type="radio" id="female" name="gender" value="female">
+         <label for="female">Female</label><br>
+ 	 <input type="radio" id="other" name="gender" value="other">
+ 	 <label for="other">Other</label>
+	 <br>
+	 <br>
+	 <label for="DOB">DOB:</label>
+ 	 <input type="date" id="DOB" name="DOB">
+  	 <br>
+	 <br>
+         College: <input type = "text" name = "college name" />
+         <br>
+	 <br>
+         place: <input type = "text" name = "Place" />
+	 <br>
+	 <br>
+	 
+      </form>
+   </body>
+	
+</html>
